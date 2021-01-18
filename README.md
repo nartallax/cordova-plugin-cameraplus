@@ -4,7 +4,7 @@ Native InApp Camera in custom activity basic features:
 
 ### Installation
 
-Use: cordova add plugin https://github.com/mhartington/cordova-plugin-cameraplus
+Use: cordova add plugin https://github.com/nartallax/cordova-plugin-cameraplus
 
 ### Basic Usage
 

@@ -374,11 +374,11 @@ public class CameraActivity extends Activity implements SensorEventListener {
                     });
                 } catch (RuntimeException ex) {
                   // Auto focus crash. Ignore.
-                  Toast.makeText(getApplicationContext(), "Error de enfoque", Toast.LENGTH_SHORT).show();
+                  Toast.makeText(getApplicationContext(), "Не получилось сфокусироваться", Toast.LENGTH_SHORT).show();
                   Log.e(TAG, "Auto-focus crash");
                   pressed = false;
                 } catch (Exception e) {
-                    Toast.makeText(getApplicationContext(), "Error de captura", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Не получилось сделать фото", Toast.LENGTH_SHORT).show();
                     Log.e(TAG, "Capture crash");
                     pressed = false;
                 }
